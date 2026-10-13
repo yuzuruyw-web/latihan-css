@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef3f8;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+.kartu {
+    width: 380px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border: 2px solid #3498db;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.bagian-foto {
+    margin-bottom: 15px;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3498db;
+}
+
+#nama {
+    margin: 15px 0 5px;
+    color: #2c3e50;
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+
+.status {
+    margin: 0;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.garis {
+    width: 80%;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px auto;
+}
+
+.data-profil {
+    margin-top: 15px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    margin: 10px 0;
+    background-color: #f5f8fb;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.label {
+    color: #555;
+    font-weight: bold;
+}
+
+.isi {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.tentang {
+    margin-top: 25px;
+}
+
+.tentang h2 {
+    color: #2c3e50;
+    font-family: Georgia, serif;
+    font-size: 22px;
+}
+
+.deskripsi {
+    color: #666;
+    line-height: 1.7;
+    text-align: justify;
+    margin-top: 10px;
+}
